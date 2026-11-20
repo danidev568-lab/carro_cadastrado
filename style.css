@@ -1,0 +1,62 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+
+    background-image: url("carros.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+    min-height: 100vh;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    padding: 30px;
+}
+
+form {
+    background: rgba(255, 255, 255, 0.90);
+    width: 350px;
+    margin: 30px auto;
+    padding: 25px;
+    border-radius: 12px;
+}
+
+label {
+    display: block;
+    margin-top: 12px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 20px;
+    background: #222;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+body {
+    background-image: url("./carros.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    background-image: url("./carro.jpg");
+}
+
